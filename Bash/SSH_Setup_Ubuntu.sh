@@ -1,7 +1,7 @@
 #!/bin/bash
-echo "Do you need to setup an ssh key?(Y/N)"
+echo "Do you need to setup an ssh key?[Y/N]"
 read KEYSET
-if [ $KEYSET -eq Y ]
+if [ $KEYSET -eq "Y" ]
 then
     echo "What is your public key?"
     read KEY
@@ -18,7 +18,7 @@ fi
 
 echo "Configurating SSH config files!"
 echo "Backing up the config file!"
-cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
+sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
 echo "Backup done! search for sshd_config.bak if you want to revert"
 echo "Do you want to change the port?(Y/N)"
 read PORT
