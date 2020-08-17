@@ -1,0 +1,27 @@
+﻿<Window x:Class="SoftwareInstaller.Window2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SoftwareInstaller"
+        mc:Ignorable="d"
+        Title="Window2" Height="232.105" Width="337.566">
+    <Grid>
+        <Label Content="Drivers" HorizontalAlignment="Left" Height="28" Margin="10,10,0,0" VerticalAlignment="Top" Width="86"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="10" Margin="10,43,0,0" VerticalAlignment="Top" Width="10"/>
+        <Label Content="Nvidia GeForce Experience" HorizontalAlignment="Left" Height="25" Margin="31,34,0,0" VerticalAlignment="Top" Width="289"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="10" Margin="10,63,0,0" VerticalAlignment="Top" Width="10"/>
+        <Label Content="Iobit Driver Booster" HorizontalAlignment="Left" Height="25" Margin="31,54,0,0" VerticalAlignment="Top" Width="289"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="10" Margin="10,83,0,0" VerticalAlignment="Top" Width="10"/>
+        <Label Content="AMD Master" HorizontalAlignment="Left" Height="25" Margin="31,74,0,0" VerticalAlignment="Top" Width="289"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="10" Margin="10,103,0,0" VerticalAlignment="Top" Width="10"/>
+        <Label Content="Logitech Ghub" HorizontalAlignment="Left" Height="25" Margin="31,94,0,0" VerticalAlignment="Top" Width="289"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="10" Margin="10,123,0,0" VerticalAlignment="Top" Width="10"/>
+        <Label Content="Razer Synapse" HorizontalAlignment="Left" Height="25" Margin="31,114,0,0" VerticalAlignment="Top" Width="289"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="10" Margin="10,143,0,0" VerticalAlignment="Top" Width="10"/>
+        <Label Content="Corsair IQ" HorizontalAlignment="Left" Height="25" Margin="31,134,0,0" VerticalAlignment="Top" Width="289"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Height="10" Margin="10,163,0,0" VerticalAlignment="Top" Width="10"/>
+        <Label Content="SteelSeries Engine" HorizontalAlignment="Left" Height="25" Margin="31,154,0,0" VerticalAlignment="Top" Width="289"/>
+
+    </Grid>
+</Window>
